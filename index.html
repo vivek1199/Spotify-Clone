@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ultimate Spotify Clone</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h1>My Playlist</h1>
+    <input type="text" id="search" placeholder="Search songs...">
+    <ul id="song-list"></ul>
+  </div>
+
+  <!-- Main -->
+  <div class="main">
+    <div class="current-song">
+      <img id="cover" src="images/cover1.jpg" alt="cover">
+      <h2 id="title">Song Title</h2>
+    </div>
+  </div>
+
+  <!-- Mini Player -->
+  <div class="mini-player">
+    <img id="mini-cover" src="images/cover1.jpg" alt="cover">
+    <div class="mini-info">
+      <span id="mini-title">Song Title</span>
+      <span id="mini-time">0:00 / 0:00</span>
+    </div>
+    <div class="mini-controls">
+      <button id="mini-prev">⏮️</button>
+      <button id="mini-play">▶️</button>
+      <button id="mini-next">⏭️</button>
+      <button id="mute">🔊</button>
+    </div>
+    <input type="range" id="mini-progress" value="0" min="0" max="100">
+    <input type="range" id="volume" value="100" min="0" max="100">
+  </div>
+
+  <audio id="audio" src="songs/song1.mp3"></audio>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
