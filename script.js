@@ -1,4 +1,4 @@
-const songs = [
+aaconst songs = [
   { title:"Song 1", file:"Arz Kiya Hai-(SambalpuriStar.In).mp3", cover:"Arz Kiya Hai.jpg" },
   { title:"Song 2", file:"Alag Aasmaan-(SambalpuriStar.In).mp3", cover:"alag aasma.jpg" },
   { title:"Song 3", file:"Afsos (PenduJatt.Com.Se).mp3", cover:"afsos.jpg" },
